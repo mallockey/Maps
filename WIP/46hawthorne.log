@@ -6257,3 +6257,3855 @@ Total triangle count: 12308
 Writing d:\maps\wip\46hawthorne.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
 5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 626
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (422791 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1509 texinfos to 867
+Reduced 86 texdatas to 76 (2651 bytes to 2189)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1312 portalclusters
+3854 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2839 visible clusters (0.00%)
+Total clusters visible: 312737
+Average clusters visible: 238
+Building PAS...
+Average clusters audible: 1033
+visdatasize:327979  compressed from 440832
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+39 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4404 faces
+138537 square feet [19949362.00 square inches]
+36 Displacements
+2307 Square Feet [332277.63 Square Inches]
+4404 patches before subdivision
+17858 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1609515, max 650
+transfer lists:  12.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(110458, 102407, 79847)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(34249, 29538, 20606)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12268, 10117, 6574)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4319, 3417, 2055)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1585, 1206, 678)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(582, 426, 225)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(217, 153, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(81, 55, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(31, 20, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 7, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes               1230/8192        14760/98304    (15.0%) 
+brushsides            7949/81920       63592/655360   ( 9.7%) 
+planes                3010/65536       60200/1310720  ( 4.6%) 
+vertexes              7492/65536       89904/786432   (11.4%) 
+nodes                 2646/65536       84672/2097152  ( 4.0%) 
+texinfos               867/12288       62424/884736   ( 7.1%) 
+texdata                 76/4096         2432/131072   ( 1.9%) 
+dispinfos               36/0            6336/0        ( 0.0%) 
+disp_verts            2916/0           58320/0        ( 0.0%) 
+disp_tris             4608/0            9216/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        8384/0            8384/0        ( 0.0%) 
+faces                 4404/65536      246624/3670016  ( 6.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2631/65536      147336/3670016  ( 4.0%) 
+facebrushes           1806/0            3612/0        ( 0.0%) 
+facebrushlists        4404/0           17616/0        ( 0.0%) 
+leaves                2657/65536       85024/2097152  ( 4.1%) 
+leaffaces             5268/65536       10536/131072   ( 8.0%) 
+leafbrushes           2429/65536        4858/131072   ( 3.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            31839/512000     127356/2048000  ( 6.2%) 
+edges                18677/256000      74708/1024000  ( 7.3%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            415/32768        4150/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6636/65536       13272/131072   (10.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1398664/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      327979/16777216 ( 2.0%) 
+entdata               [variable]       86979/393216   (22.1%) 
+LDR ambient table     2657/65536       10628/262144   ( 4.1%) 
+HDR ambient table     2657/65536       10628/262144   ( 4.1%) 
+LDR leaf ambient      7258/65536      203224/1835008  (11.1%) 
+HDR leaf ambient      2657/65536       74396/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21604    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      422791/4194304  (10.1%) 
+physics terrain       [variable]        3478/1048576  ( 0.3%) 
+
+Level flags = 7c
+
+Total triangle count: 12501
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 627
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (422791 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1509 texinfos to 867
+Reduced 86 texdatas to 76 (2651 bytes to 2189)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1312 portalclusters
+3854 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2839 visible clusters (0.00%)
+Total clusters visible: 312735
+Average clusters visible: 238
+Building PAS...
+Average clusters audible: 1033
+visdatasize:327978  compressed from 440832
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+39 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4404 faces
+138537 square feet [19949362.00 square inches]
+36 Displacements
+2307 Square Feet [332277.63 Square Inches]
+4404 patches before subdivision
+17858 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1609515, max 650
+transfer lists:  12.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(115019, 106892, 89345)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(35012, 30252, 21968)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12507, 10334, 6926)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4403, 3492, 2163)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1617, 1234, 714)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(594, 436, 237)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(222, 157, 80)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(83, 56, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(31, 21, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(5, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes               1230/8192        14760/98304    (15.0%) 
+brushsides            7949/81920       63592/655360   ( 9.7%) 
+planes                3010/65536       60200/1310720  ( 4.6%) 
+vertexes              7492/65536       89904/786432   (11.4%) 
+nodes                 2646/65536       84672/2097152  ( 4.0%) 
+texinfos               867/12288       62424/884736   ( 7.1%) 
+texdata                 76/4096         2432/131072   ( 1.9%) 
+dispinfos               36/0            6336/0        ( 0.0%) 
+disp_verts            2916/0           58320/0        ( 0.0%) 
+disp_tris             4608/0            9216/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        8384/0            8384/0        ( 0.0%) 
+faces                 4404/65536      246624/3670016  ( 6.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2631/65536      147336/3670016  ( 4.0%) 
+facebrushes           1806/0            3612/0        ( 0.0%) 
+facebrushlists        4404/0           17616/0        ( 0.0%) 
+leaves                2657/65536       85024/2097152  ( 4.1%) 
+leaffaces             5268/65536       10536/131072   ( 8.0%) 
+leafbrushes           2429/65536        4858/131072   ( 3.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            31839/512000     127356/2048000  ( 6.2%) 
+edges                18677/256000      74708/1024000  ( 7.3%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            415/32768        4150/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6636/65536       13272/131072   (10.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1398664/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      327978/16777216 ( 2.0%) 
+entdata               [variable]       86980/393216   (22.1%) 
+LDR ambient table     2657/65536       10628/262144   ( 4.1%) 
+HDR ambient table     2657/65536       10628/262144   ( 4.1%) 
+LDR leaf ambient      7369/65536      206332/1835008  (11.2%) 
+HDR leaf ambient      2657/65536       74396/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21604    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      422791/4194304  (10.1%) 
+physics terrain       [variable]        3478/1048576  ( 0.3%) 
+
+Level flags = 7c
+
+Total triangle count: 12501
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 644
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (429863 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1541 texinfos to 890
+Reduced 86 texdatas to 75 (2651 bytes to 2129)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1321 portalclusters
+3868 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2810 visible clusters (0.00%)
+Total clusters visible: 321519
+Average clusters visible: 243
+Building PAS...
+Average clusters audible: 1040
+visdatasize:331035  compressed from 443856
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+43 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4495 faces
+1 degenerate faces
+138748 square feet [19979714.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+4494 patches before subdivision
+18130 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1699358, max 670
+transfer lists:  13.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(117716, 109698, 92640)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(35107, 30381, 22227)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12419, 10290, 6965)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4353, 3470, 2180)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1596, 1226, 722)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(586, 435, 241)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(219, 156, 82)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(82, 57, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(31, 21, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(5, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes               1250/8192        15000/98304    (15.3%) 
+brushsides            8084/81920       64672/655360   ( 9.9%) 
+planes                3082/65536       61640/1310720  ( 4.7%) 
+vertexes              7682/65536       92184/786432   (11.7%) 
+nodes                 2679/65536       85728/2097152  ( 4.1%) 
+texinfos               890/12288       64080/884736   ( 7.2%) 
+texdata                 75/4096         2400/131072   ( 1.8%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 4495/65536      251720/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2693/65536      150808/3670016  ( 4.1%) 
+facebrushes           1863/0            3726/0        ( 0.0%) 
+facebrushlists        4495/0           17980/0        ( 0.0%) 
+leaves                2690/65536       86080/2097152  ( 4.1%) 
+leaffaces             5374/65536       10748/131072   ( 8.2%) 
+leafbrushes           2469/65536        4938/131072   ( 3.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            32562/512000     130248/2048000  ( 6.4%) 
+edges                19093/256000      76372/1024000  ( 7.5%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            433/32768        4330/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6888/65536       13776/131072   (10.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1408712/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      331035/16777216 ( 2.0%) 
+entdata               [variable]       86679/393216   (22.0%) 
+LDR ambient table     2690/65536       10760/262144   ( 4.1%) 
+HDR ambient table     2690/65536       10760/262144   ( 4.1%) 
+LDR leaf ambient      7401/65536      207228/1835008  (11.3%) 
+HDR leaf ambient      2690/65536       75320/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21180    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      429863/4194304  (10.2%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 12794
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 657
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431383 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1556 texinfos to 893
+Reduced 86 texdatas to 75 (2651 bytes to 2129)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1329 portalclusters
+3875 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2825 visible clusters (0.00%)
+Total clusters visible: 323416
+Average clusters visible: 243
+Building PAS...
+Average clusters audible: 1043
+visdatasize:335257  compressed from 446544
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+43 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4531 faces
+1 degenerate faces
+138779 square feet [19984214.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+4530 patches before subdivision
+18180 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1702108, max 676
+transfer lists:  13.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(117531, 109537, 92491)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(35092, 30365, 22208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12425, 10293, 6964)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4358, 3472, 2180)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1598, 1227, 723)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(587, 435, 241)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(219, 157, 82)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(82, 57, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(31, 21, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(5, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0027 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/1024          480/49152    ( 1.0%) 
+brushes               1254/8192        15048/98304    (15.3%) 
+brushsides            8112/81920       64896/655360   ( 9.9%) 
+planes                3106/65536       62120/1310720  ( 4.7%) 
+vertexes              7755/65536       93060/786432   (11.8%) 
+nodes                 2693/65536       86176/2097152  ( 4.1%) 
+texinfos               893/12288       64296/884736   ( 7.3%) 
+texdata                 75/4096         2400/131072   ( 1.8%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 4531/65536      253736/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2708/65536      151648/3670016  ( 4.1%) 
+facebrushes           1889/0            3778/0        ( 0.0%) 
+facebrushlists        4531/0           18124/0        ( 0.0%) 
+leaves                2704/65536       86528/2097152  ( 4.1%) 
+leaffaces             5415/65536       10830/131072   ( 8.3%) 
+leafbrushes           2477/65536        4954/131072   ( 3.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            32797/512000     131188/2048000  ( 6.4%) 
+edges                19232/256000      76928/1024000  ( 7.5%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            441/32768        4410/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7026/65536       14052/131072   (10.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1407156/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      335257/16777216 ( 2.0%) 
+entdata               [variable]       89954/393216   (22.9%) 
+LDR ambient table     2704/65536       10816/262144   ( 4.1%) 
+HDR ambient table     2704/65536       10816/262144   ( 4.1%) 
+LDR leaf ambient      7383/65536      206724/1835008  (11.3%) 
+HDR leaf ambient      2704/65536       75712/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21694    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      431383/4194304  (10.3%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 12900
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 661
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431934 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1559 texinfos to 895
+Reduced 86 texdatas to 75 (2651 bytes to 2129)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1329 portalclusters
+3875 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2825 visible clusters (0.00%)
+Total clusters visible: 323416
+Average clusters visible: 243
+Building PAS...
+Average clusters audible: 1043
+visdatasize:335257  compressed from 446544
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+49 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4537 faces
+1 degenerate faces
+139228 square feet [20048950.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+4536 patches before subdivision
+18254 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1710474, max 676
+transfer lists:  13.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(117689, 110421, 94796)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(35206, 30516, 22365)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12402, 10283, 6983)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4346, 3461, 2176)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1592, 1222, 721)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(585, 433, 240)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(218, 156, 82)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(82, 56, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(31, 21, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(5, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1255/8192        15060/98304    (15.3%) 
+brushsides            8118/81920       64944/655360   ( 9.9%) 
+planes                3114/65536       62280/1310720  ( 4.8%) 
+vertexes              7763/65536       93156/786432   (11.8%) 
+nodes                 2699/65536       86368/2097152  ( 4.1%) 
+texinfos               895/12288       64440/884736   ( 7.3%) 
+texdata                 75/4096         2400/131072   ( 1.8%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 4537/65536      254072/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2714/65536      151984/3670016  ( 4.1%) 
+facebrushes           1889/0            3778/0        ( 0.0%) 
+facebrushlists        4537/0           18148/0        ( 0.0%) 
+leaves                2711/65536       86752/2097152  ( 4.1%) 
+leaffaces             5421/65536       10842/131072   ( 8.3%) 
+leafbrushes           2478/65536        4956/131072   ( 3.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            32845/512000     131380/2048000  ( 6.4%) 
+edges                19256/256000      77024/1024000  ( 7.5%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            441/32768        4410/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7026/65536       14052/131072   (10.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1410364/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      335257/16777216 ( 2.0%) 
+entdata               [variable]       90027/393216   (22.9%) 
+LDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+HDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+LDR leaf ambient      7327/65536      205156/1835008  (11.2%) 
+HDR leaf ambient      2711/65536       75908/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21694    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      431934/4194304  (10.3%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 12912
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 662
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431934 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1559 texinfos to 895
+Reduced 86 texdatas to 75 (2651 bytes to 2129)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1329 portalclusters
+3875 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2824 visible clusters (0.00%)
+Total clusters visible: 323415
+Average clusters visible: 243
+Building PAS...
+Average clusters audible: 1043
+visdatasize:335257  compressed from 446544
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+44 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4537 faces
+1 degenerate faces
+139228 square feet [20048950.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+4536 patches before subdivision
+18254 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1710474, max 676
+transfer lists:  13.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(119980, 112403, 97162)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(34758, 30017, 21871)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12153, 10010, 6686)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4232, 3346, 2063)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1546, 1178, 680)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(566, 416, 226)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(211, 149, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(79, 54, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(30, 20, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(11, 7, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0029 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1255/8192        15060/98304    (15.3%) 
+brushsides            8118/81920       64944/655360   ( 9.9%) 
+planes                3114/65536       62280/1310720  ( 4.8%) 
+vertexes              7763/65536       93156/786432   (11.8%) 
+nodes                 2699/65536       86368/2097152  ( 4.1%) 
+texinfos               895/12288       64440/884736   ( 7.3%) 
+texdata                 75/4096         2400/131072   ( 1.8%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 4537/65536      254072/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2714/65536      151984/3670016  ( 4.1%) 
+facebrushes           1889/0            3778/0        ( 0.0%) 
+facebrushlists        4537/0           18148/0        ( 0.0%) 
+leaves                2711/65536       86752/2097152  ( 4.1%) 
+leaffaces             5421/65536       10842/131072   ( 8.3%) 
+leafbrushes           2478/65536        4956/131072   ( 3.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            32845/512000     131380/2048000  ( 6.4%) 
+edges                19256/256000      77024/1024000  ( 7.5%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            441/32768        4410/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7026/65536       14052/131072   (10.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1410364/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      335257/16777216 ( 2.0%) 
+entdata               [variable]       90027/393216   (22.9%) 
+LDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+HDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+LDR leaf ambient      7478/65536      209384/1835008  (11.4%) 
+HDR leaf ambient      2711/65536       75908/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21694    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      431934/4194304  (10.3%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 12912
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 663
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431934 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1559 texinfos to 895
+Reduced 86 texdatas to 75 (2651 bytes to 2129)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1329 portalclusters
+3875 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2828 visible clusters (0.00%)
+Total clusters visible: 323419
+Average clusters visible: 243
+Building PAS...
+Average clusters audible: 1043
+visdatasize:335257  compressed from 446544
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+49 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4537 faces
+1 degenerate faces
+139228 square feet [20048950.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+4536 patches before subdivision
+18254 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1710474, max 676
+transfer lists:  13.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(125640, 118805, 104881)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(36787, 32028, 23816)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12855, 10695, 7354)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4493, 3588, 2281)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1642, 1263, 753)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(602, 446, 250)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(224, 160, 85)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(84, 58, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(32, 21, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(5, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1255/8192        15060/98304    (15.3%) 
+brushsides            8118/81920       64944/655360   ( 9.9%) 
+planes                3114/65536       62280/1310720  ( 4.8%) 
+vertexes              7763/65536       93156/786432   (11.8%) 
+nodes                 2699/65536       86368/2097152  ( 4.1%) 
+texinfos               895/12288       64440/884736   ( 7.3%) 
+texdata                 75/4096         2400/131072   ( 1.8%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 4537/65536      254072/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2714/65536      151984/3670016  ( 4.1%) 
+facebrushes           1889/0            3778/0        ( 0.0%) 
+facebrushlists        4537/0           18148/0        ( 0.0%) 
+leaves                2711/65536       86752/2097152  ( 4.1%) 
+leaffaces             5421/65536       10842/131072   ( 8.3%) 
+leafbrushes           2478/65536        4956/131072   ( 3.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            32845/512000     131380/2048000  ( 6.4%) 
+edges                19256/256000      77024/1024000  ( 7.5%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            441/32768        4410/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7026/65536       14052/131072   (10.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1410364/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      335257/16777216 ( 2.0%) 
+entdata               [variable]       90027/393216   (22.9%) 
+LDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+HDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+LDR leaf ambient      7328/65536      205184/1835008  (11.2%) 
+HDR leaf ambient      2711/65536       75908/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21694    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      431934/4194304  (10.3%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 12912
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 664
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431934 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1559 texinfos to 895
+Reduced 86 texdatas to 75 (2651 bytes to 2129)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1329 portalclusters
+3875 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2824 visible clusters (0.00%)
+Total clusters visible: 323415
+Average clusters visible: 243
+Building PAS...
+Average clusters audible: 1043
+visdatasize:335257  compressed from 446544
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+44 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4537 faces
+1 degenerate faces
+139228 square feet [20048950.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+4536 patches before subdivision
+18254 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1710474, max 676
+transfer lists:  13.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(109819, 101529, 83131)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(33614, 28963, 20857)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(11989, 9897, 6619)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4208, 3341, 2075)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1543, 1182, 688)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(567, 419, 229)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(212, 151, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(79, 55, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(30, 20, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(11, 7, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1255/8192        15060/98304    (15.3%) 
+brushsides            8118/81920       64944/655360   ( 9.9%) 
+planes                3114/65536       62280/1310720  ( 4.8%) 
+vertexes              7763/65536       93156/786432   (11.8%) 
+nodes                 2699/65536       86368/2097152  ( 4.1%) 
+texinfos               895/12288       64440/884736   ( 7.3%) 
+texdata                 75/4096         2400/131072   ( 1.8%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 4537/65536      254072/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2714/65536      151984/3670016  ( 4.1%) 
+facebrushes           1889/0            3778/0        ( 0.0%) 
+facebrushlists        4537/0           18148/0        ( 0.0%) 
+leaves                2711/65536       86752/2097152  ( 4.1%) 
+leaffaces             5421/65536       10842/131072   ( 8.3%) 
+leafbrushes           2478/65536        4956/131072   ( 3.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            32845/512000     131380/2048000  ( 6.4%) 
+edges                19256/256000      77024/1024000  ( 7.5%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            441/32768        4410/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7026/65536       14052/131072   (10.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1410364/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      335257/16777216 ( 2.0%) 
+entdata               [variable]       90221/393216   (22.9%) 
+LDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+HDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+LDR leaf ambient      7328/65536      205184/1835008  (11.2%) 
+HDR leaf ambient      2711/65536       75908/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21694    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      431934/4194304  (10.3%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 12912
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 665
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431934 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1559 texinfos to 895
+Reduced 86 texdatas to 75 (2651 bytes to 2129)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1329 portalclusters
+3875 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2824 visible clusters (0.00%)
+Total clusters visible: 323415
+Average clusters visible: 243
+Building PAS...
+Average clusters audible: 1043
+visdatasize:335257  compressed from 446544
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+45 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4537 faces
+1 degenerate faces
+139228 square feet [20048950.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+4536 patches before subdivision
+18254 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1710474, max 676
+transfer lists:  13.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(117689, 110421, 94796)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(35206, 30516, 22365)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12402, 10283, 6983)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4346, 3461, 2176)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1592, 1222, 721)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(585, 433, 240)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(218, 156, 82)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(82, 56, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(31, 21, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(5, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1255/8192        15060/98304    (15.3%) 
+brushsides            8118/81920       64944/655360   ( 9.9%) 
+planes                3114/65536       62280/1310720  ( 4.8%) 
+vertexes              7763/65536       93156/786432   (11.8%) 
+nodes                 2699/65536       86368/2097152  ( 4.1%) 
+texinfos               895/12288       64440/884736   ( 7.3%) 
+texdata                 75/4096         2400/131072   ( 1.8%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 4537/65536      254072/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2714/65536      151984/3670016  ( 4.1%) 
+facebrushes           1889/0            3778/0        ( 0.0%) 
+facebrushlists        4537/0           18148/0        ( 0.0%) 
+leaves                2711/65536       86752/2097152  ( 4.1%) 
+leaffaces             5421/65536       10842/131072   ( 8.3%) 
+leafbrushes           2478/65536        4956/131072   ( 3.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            32845/512000     131380/2048000  ( 6.4%) 
+edges                19256/256000      77024/1024000  ( 7.5%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            441/32768        4410/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7026/65536       14052/131072   (10.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1410364/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      335257/16777216 ( 2.0%) 
+entdata               [variable]       90223/393216   (22.9%) 
+LDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+HDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+LDR leaf ambient      7327/65536      205156/1835008  (11.2%) 
+HDR leaf ambient      2711/65536       75908/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21694    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      431934/4194304  (10.3%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 12912
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 666
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431934 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1557 texinfos to 898
+Reduced 86 texdatas to 75 (2651 bytes to 2129)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1329 portalclusters
+3875 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2824 visible clusters (0.00%)
+Total clusters visible: 323415
+Average clusters visible: 243
+Building PAS...
+Average clusters audible: 1043
+visdatasize:335257  compressed from 446544
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+45 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4575 faces
+1 degenerate faces
+139228 square feet [20048950.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+4574 patches before subdivision
+22104 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3284310, max 893
+transfer lists:  25.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(107618, 99320, 79371)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(33448, 28928, 20682)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(11935, 9884, 6572)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4180, 3328, 2054)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1531, 1174, 679)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(562, 415, 226)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(210, 149, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(79, 54, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(30, 20, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(11, 7, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0042 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1255/8192        15060/98304    (15.3%) 
+brushsides            8118/81920       64944/655360   ( 9.9%) 
+planes                3114/65536       62280/1310720  ( 4.8%) 
+vertexes              7806/65536       93672/786432   (11.9%) 
+nodes                 2699/65536       86368/2097152  ( 4.1%) 
+texinfos               898/12288       64656/884736   ( 7.3%) 
+texdata                 75/4096         2400/131072   ( 1.8%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 4575/65536      256200/3670016  ( 7.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2714/65536      151984/3670016  ( 4.1%) 
+facebrushes           1889/0            3778/0        ( 0.0%) 
+facebrushlists        4575/0           18300/0        ( 0.0%) 
+leaves                2711/65536       86752/2097152  ( 4.1%) 
+leaffaces             5477/65536       10954/131072   ( 8.4%) 
+leafbrushes           2478/65536        4956/131072   ( 3.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            33009/512000     132036/2048000  ( 6.4%) 
+edges                19338/256000      77352/1024000  ( 7.6%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            448/32768        4480/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7122/65536       14244/131072   (10.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1624164/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      335257/16777216 ( 2.0%) 
+entdata               [variable]       90223/393216   (22.9%) 
+LDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+HDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+LDR leaf ambient      7142/65536      199976/1835008  (10.9%) 
+HDR leaf ambient      2711/65536       75908/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21694    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      431934/4194304  (10.3%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 13000
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 669
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431937 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1562 texinfos to 896
+Reduced 88 texdatas to 77 (2683 bytes to 2161)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1323 portalclusters
+3853 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2771 visible clusters (0.00%)
+Total clusters visible: 318432
+Average clusters visible: 240
+Building PAS...
+Average clusters audible: 1036
+visdatasize:330816  compressed from 444528
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+41 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4529 faces
+1 degenerate faces
+137683 square feet [19826478.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+4528 patches before subdivision
+18122 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1691555, max 675
+transfer lists:  12.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(109545, 102227, 85828)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(33676, 29105, 21133)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12047, 9962, 6705)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4235, 3367, 2103)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1554, 1191, 698)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(571, 422, 233)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(213, 152, 79)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(80, 55, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(30, 20, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 7, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1255/8192        15060/98304    (15.3%) 
+brushsides            8118/81920       64944/655360   ( 9.9%) 
+planes                3114/65536       62280/1310720  ( 4.8%) 
+vertexes              7756/65536       93072/786432   (11.8%) 
+nodes                 2699/65536       86368/2097152  ( 4.1%) 
+texinfos               896/12288       64512/884736   ( 7.3%) 
+texdata                 77/4096         2464/131072   ( 1.9%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 4529/65536      253624/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2715/65536      152040/3670016  ( 4.1%) 
+facebrushes           1883/0            3766/0        ( 0.0%) 
+facebrushlists        4529/0           18116/0        ( 0.0%) 
+leaves                2711/65536       86752/2097152  ( 4.1%) 
+leaffaces             5406/65536       10812/131072   ( 8.2%) 
+leafbrushes           2478/65536        4956/131072   ( 3.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            32800/512000     131200/2048000  ( 6.4%) 
+edges                19224/256000      76896/1024000  ( 7.5%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            436/32768        4360/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6951/65536       13902/131072   (10.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1404404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      330816/16777216 ( 2.0%) 
+entdata               [variable]       90223/393216   (22.9%) 
+LDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+HDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+LDR leaf ambient      7241/65536      202748/1835008  (11.0%) 
+HDR leaf ambient      2711/65536       75908/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21692    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      431937/4194304  (10.3%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 12879
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 670
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431937 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1562 texinfos to 896
+Reduced 88 texdatas to 77 (2683 bytes to 2161)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1323 portalclusters
+3853 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2771 visible clusters (0.00%)
+Total clusters visible: 318432
+Average clusters visible: 240
+Building PAS...
+Average clusters audible: 1036
+visdatasize:330816  compressed from 444528
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+43 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4529 faces
+1 degenerate faces
+137683 square feet [19826478.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+4528 patches before subdivision
+18122 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1691555, max 675
+transfer lists:  12.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(116323, 108566, 91813)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(34796, 30127, 22052)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12377, 10257, 6943)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4347, 3464, 2177)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1595, 1225, 722)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(586, 434, 241)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(219, 156, 82)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(82, 57, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(31, 21, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(5, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1255/8192        15060/98304    (15.3%) 
+brushsides            8118/81920       64944/655360   ( 9.9%) 
+planes                3114/65536       62280/1310720  ( 4.8%) 
+vertexes              7756/65536       93072/786432   (11.8%) 
+nodes                 2699/65536       86368/2097152  ( 4.1%) 
+texinfos               896/12288       64512/884736   ( 7.3%) 
+texdata                 77/4096         2464/131072   ( 1.9%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 4529/65536      253624/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2715/65536      152040/3670016  ( 4.1%) 
+facebrushes           1883/0            3766/0        ( 0.0%) 
+facebrushlists        4529/0           18116/0        ( 0.0%) 
+leaves                2711/65536       86752/2097152  ( 4.1%) 
+leaffaces             5406/65536       10812/131072   ( 8.2%) 
+leafbrushes           2478/65536        4956/131072   ( 3.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            32800/512000     131200/2048000  ( 6.4%) 
+edges                19224/256000      76896/1024000  ( 7.5%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            436/32768        4360/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6951/65536       13902/131072   (10.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1404404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      330816/16777216 ( 2.0%) 
+entdata               [variable]       90221/393216   (22.9%) 
+LDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+HDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+LDR leaf ambient      7362/65536      206136/1835008  (11.2%) 
+HDR leaf ambient      2711/65536       75908/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21692    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      431937/4194304  (10.3%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 12879
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 672
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431937 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1562 texinfos to 896
+Reduced 88 texdatas to 77 (2683 bytes to 2161)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1323 portalclusters
+3853 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2770 visible clusters (0.00%)
+Total clusters visible: 318431
+Average clusters visible: 240
+Building PAS...
+Average clusters audible: 1036
+visdatasize:330816  compressed from 444528
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+41 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4529 faces
+1 degenerate faces
+137683 square feet [19826478.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+4528 patches before subdivision
+18122 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1691555, max 675
+transfer lists:  12.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(128525, 121441, 107140)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(37098, 32332, 24214)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13083, 10901, 7510)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4594, 3680, 2351)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1685, 1301, 779)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(620, 462, 260)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(232, 166, 88)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(87, 60, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(33, 22, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(13, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(5, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1255/8192        15060/98304    (15.3%) 
+brushsides            8118/81920       64944/655360   ( 9.9%) 
+planes                3114/65536       62280/1310720  ( 4.8%) 
+vertexes              7756/65536       93072/786432   (11.8%) 
+nodes                 2699/65536       86368/2097152  ( 4.1%) 
+texinfos               896/12288       64512/884736   ( 7.3%) 
+texdata                 77/4096         2464/131072   ( 1.9%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 4529/65536      253624/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2715/65536      152040/3670016  ( 4.1%) 
+facebrushes           1883/0            3766/0        ( 0.0%) 
+facebrushlists        4529/0           18116/0        ( 0.0%) 
+leaves                2711/65536       86752/2097152  ( 4.1%) 
+leaffaces             5406/65536       10812/131072   ( 8.2%) 
+leafbrushes           2478/65536        4956/131072   ( 3.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            32800/512000     131200/2048000  ( 6.4%) 
+edges                19224/256000      76896/1024000  ( 7.5%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            436/32768        4360/327680   ( 1.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6951/65536       13902/131072   (10.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1404404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      330816/16777216 ( 2.0%) 
+entdata               [variable]       90224/393216   (22.9%) 
+LDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+HDR ambient table     2711/65536       10844/262144   ( 4.1%) 
+LDR leaf ambient      7437/65536      208236/1835008  (11.3%) 
+HDR leaf ambient      2711/65536       75908/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21692    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      431937/4194304  (10.3%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 12879
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 676
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-228.00 74.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431825 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1564 texinfos to 973
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 677
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431561 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1564 texinfos to 898
+Reduced 88 texdatas to 77 (2683 bytes to 2161)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1326 portalclusters
+3861 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3053 visible clusters (0.00%)
+Total clusters visible: 326671
+Average clusters visible: 246
+Building PAS...
+Average clusters audible: 1042
+visdatasize:333744  compressed from 445536
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+58 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4549 faces
+1 degenerate faces
+153907 square feet [22162622.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+4548 patches before subdivision
+18890 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1732267, max 681
+transfer lists:  13.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(116597, 108882, 92210)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(34703, 30038, 21970)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12344, 10226, 6915)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4332, 3451, 2165)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1589, 1220, 717)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(584, 432, 239)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(218, 155, 81)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(82, 56, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(31, 20, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(5, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1254/8192        15048/98304    (15.3%) 
+brushsides            8112/81920       64896/655360   ( 9.9%) 
+planes                3110/65536       62200/1310720  ( 4.7%) 
+vertexes              7775/65536       93300/786432   (11.9%) 
+nodes                 2703/65536       86496/2097152  ( 4.1%) 
+texinfos               898/12288       64656/884736   ( 7.3%) 
+texdata                 77/4096         2464/131072   ( 1.9%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 4549/65536      254744/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2719/65536      152264/3670016  ( 4.1%) 
+facebrushes           1886/0            3772/0        ( 0.0%) 
+facebrushlists        4549/0           18196/0        ( 0.0%) 
+leaves                2715/65536       86880/2097152  ( 4.1%) 
+leaffaces             5446/65536       10892/131072   ( 8.3%) 
+leafbrushes           2476/65536        4952/131072   ( 3.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            32918/512000     131672/2048000  ( 6.4%) 
+edges                19282/256000      77128/1024000  ( 7.5%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            443/32768        4430/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7035/65536       14070/131072   (10.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1440880/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      333744/16777216 ( 2.0%) 
+entdata               [variable]       90223/393216   (22.9%) 
+LDR ambient table     2715/65536       10860/262144   ( 4.1%) 
+HDR ambient table     2715/65536       10860/262144   ( 4.1%) 
+LDR leaf ambient      7531/65536      210868/1835008  (11.5%) 
+HDR leaf ambient      2715/65536       76020/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21492    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      431561/4194304  (10.3%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 12941
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 678
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity prop_physics_multiplayer (742.28 -1144.00 84.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431761 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1564 texinfos to 974
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 679
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity prop_physics_multiplayer (742.28 -1144.00 84.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431761 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1564 texinfos to 974
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 680
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity prop_physics_multiplayer (742.28 -1144.00 84.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431761 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1564 texinfos to 974
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 681
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity prop_physics_multiplayer (742.28 -1144.00 84.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431809 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1564 texinfos to 975
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 682
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity prop_physics_multiplayer (742.28 -1144.00 84.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431777 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1564 texinfos to 973
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 683
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity prop_physics_multiplayer (742.28 -1144.00 84.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431777 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1564 texinfos to 973
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 684
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity prop_physics_multiplayer (742.28 -1144.00 84.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431777 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1564 texinfos to 976
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 685
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity prop_physics_multiplayer (742.28 -1144.00 84.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431777 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1564 texinfos to 973
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 687
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity phys_ballsocket (769.00 -1094.00 184.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431777 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1563 texinfos to 973
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 689
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic (755.64 -1119.40 56.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431777 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1563 texinfos to 973
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 690
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-849.05 -1099.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431729 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1563 texinfos to 973
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 691
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-849.05 -1099.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431729 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1563 texinfos to 973
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 692
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-849.05 -1099.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431729 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1563 texinfos to 973
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 693
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic (-280.00 -1202.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (432121 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1563 texinfos to 974
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 694
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic (-280.00 -1202.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (432513 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1563 texinfos to 974
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 695
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic (-280.00 -1202.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (432513 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1563 texinfos to 974
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 697
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic (-280.00 -1202.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (432905 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1566 texinfos to 977
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 698
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (432705 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1565 texinfos to 902
+Reduced 88 texdatas to 77 (2683 bytes to 2161)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1328 portalclusters
+3877 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 699
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (-849.05 -1099.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (432513 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1567 texinfos to 973
+Reduced 88 texdatas to 79 (2683 bytes to 2257)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+LoadPortals: couldn't read d:\maps\wip\46hawthorne.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 700
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...100...1...2...3.Brush 40906: WARNING, microbrush
+..4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (431873 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1567 texinfos to 898
+Reduced 89 texdatas to 78 (2701 bytes to 2179)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1325 portalclusters
+3859 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3111 visible clusters (0.00%)
+Total clusters visible: 325298
+Average clusters visible: 245
+Building PAS...
+Average clusters audible: 1041
+visdatasize:333324  compressed from 445200
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+54 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4546 faces
+1 degenerate faces
+153689 square feet [22131334.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+4545 patches before subdivision
+18949 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1776162, max 676
+transfer lists:  13.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(116682, 108961, 92273)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(34704, 30042, 21973)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12343, 10226, 6915)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4332, 3450, 2165)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1589, 1220, 717)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(584, 432, 239)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(218, 155, 81)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(82, 56, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(31, 20, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0036 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1255/8192        15060/98304    (15.3%) 
+brushsides            8118/81920       64944/655360   ( 9.9%) 
+planes                3108/65536       62160/1310720  ( 4.7%) 
+vertexes              7779/65536       93348/786432   (11.9%) 
+nodes                 2704/65536       86528/2097152  ( 4.1%) 
+texinfos               898/12288       64656/884736   ( 7.3%) 
+texdata                 78/4096         2496/131072   ( 1.9%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 4546/65536      254576/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2717/65536      152152/3670016  ( 4.1%) 
+facebrushes           1895/0            3790/0        ( 0.0%) 
+facebrushlists        4546/0           18184/0        ( 0.0%) 
+leaves                2716/65536       86912/2097152  ( 4.1%) 
+leaffaces             5437/65536       10874/131072   ( 8.3%) 
+leafbrushes           2480/65536        4960/131072   ( 3.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            32895/512000     131580/2048000  ( 6.4%) 
+edges                19271/256000      77084/1024000  ( 7.5%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            446/32768        4460/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7071/65536       14142/131072   (10.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1444656/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      333324/16777216 ( 2.0%) 
+entdata               [variable]       90223/393216   (22.9%) 
+LDR ambient table     2716/65536       10864/262144   ( 4.1%) 
+HDR ambient table     2716/65536       10864/262144   ( 4.1%) 
+LDR leaf ambient      7543/65536      211204/1835008  (11.5%) 
+HDR leaf ambient      2716/65536       76048/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21490    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      431873/4194304  (10.3%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 12935
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 715
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2..Brush 40906: WARNING, microbrush
+.3...4...5...6...7...8...9...100...1...2..Brush 40906: WARNING, microbrush
+.3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (447521 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1652 texinfos to 944
+Reduced 92 texdatas to 81 (2778 bytes to 2256)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1395 portalclusters
+4050 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3605 visible clusters (0.00%)
+Total clusters visible: 378724
+Average clusters visible: 271
+Building PAS...
+Average clusters audible: 1123
+visdatasize:372806  compressed from 491040
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+3 minutes, 0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4736 faces
+1 degenerate faces
+171598 square feet [24710206.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+4735 patches before subdivision
+21227 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2054122, max 732
+transfer lists:  15.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(124094, 115633, 97827)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(35512, 30726, 22419)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12461, 10319, 6968)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4349, 3463, 2171)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1592, 1222, 718)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(584, 433, 239)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(218, 156, 81)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(82, 56, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(31, 21, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(5, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1300/8192        15600/98304    (15.9%) 
+brushsides            8402/81920       67216/655360   (10.3%) 
+planes                3216/65536       64320/1310720  ( 4.9%) 
+vertexes              8058/65536       96696/786432   (12.3%) 
+nodes                 2829/65536       90528/2097152  ( 4.3%) 
+texinfos               944/12288       67968/884736   ( 7.7%) 
+texdata                 81/4096         2592/131072   ( 2.0%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 4736/65536      265216/3670016  ( 7.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2800/65536      156800/3670016  ( 4.3%) 
+facebrushes           1944/0            3888/0        ( 0.0%) 
+facebrushlists        4736/0           18944/0        ( 0.0%) 
+leaves                2841/65536       90912/2097152  ( 4.3%) 
+leaffaces             5682/65536       11364/131072   ( 8.7%) 
+leafbrushes           2629/65536        5258/131072   ( 4.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34096/512000     136384/2048000  ( 6.7%) 
+edges                19950/256000      79800/1024000  ( 7.8%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            454/32768        4540/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7245/65536       14490/131072   (11.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1685544/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      372806/16777216 ( 2.2%) 
+entdata               [variable]       90224/393216   (22.9%) 
+LDR ambient table     2841/65536       11364/262144   ( 4.3%) 
+HDR ambient table     2841/65536       11364/262144   ( 4.3%) 
+LDR leaf ambient      8084/65536      226352/1835008  (12.3%) 
+HDR leaf ambient      2841/65536       79548/1835008  ( 4.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21816    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      447521/4194304  (10.7%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 13429
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 730
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3Brush 40906: WARNING, microbrush
+...4...5...6...7...8...9...100...1...2...3Brush 40906: WARNING, microbrush
+...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (448865 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1674 texinfos to 958
+Reduced 91 texdatas to 80 (2760 bytes to 2238)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1469 portalclusters
+4448 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4262 visible clusters (0.00%)
+Total clusters visible: 430401
+Average clusters visible: 292
+Building PAS...
+Average clusters audible: 1209
+visdatasize:416946  compressed from 540592
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+13 minutes, 48 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+4866 faces
+268426 square feet [38653416.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+4866 patches before subdivision
+26444 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2943957, max 865
+transfer lists:  22.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(110671, 102369, 83387)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(33366, 28731, 20565)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(11878, 9793, 6507)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4158, 3298, 2033)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1524, 1165, 673)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(559, 412, 224)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(209, 148, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(78, 54, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(30, 20, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(11, 7, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0049 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1308/8192        15696/98304    (16.0%) 
+brushsides            8450/81920       67600/655360   (10.3%) 
+planes                3234/65536       64680/1310720  ( 4.9%) 
+vertexes              8224/65536       98688/786432   (12.5%) 
+nodes                 2894/65536       92608/2097152  ( 4.4%) 
+texinfos               958/12288       68976/884736   ( 7.8%) 
+texdata                 80/4096         2560/131072   ( 2.0%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 4866/65536      272496/3670016  ( 7.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2816/65536      157696/3670016  ( 4.3%) 
+facebrushes           1974/0            3948/0        ( 0.0%) 
+facebrushlists        4866/0           19464/0        ( 0.0%) 
+leaves                2906/65536       92992/2097152  ( 4.4%) 
+leaffaces             5779/65536       11558/131072   ( 8.8%) 
+leafbrushes           2626/65536        5252/131072   ( 4.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34744/512000     138976/2048000  ( 6.8%) 
+edges                20287/256000      81148/1024000  ( 7.9%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            454/32768        4540/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7206/65536       14412/131072   (11.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2043620/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      416946/16777216 ( 2.5%) 
+entdata               [variable]       88736/393216   (22.6%) 
+LDR ambient table     2906/65536       11624/262144   ( 4.4%) 
+HDR ambient table     2906/65536       11624/262144   ( 4.4%) 
+LDR leaf ambient      8510/65536      238280/1835008  (13.0%) 
+HDR leaf ambient      2906/65536       81368/1835008  ( 4.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/21874    ( 0.0%) 
+pakfile               [variable]      153530/0        ( 0.0%) 
+physics               [variable]      448865/4194304  (10.7%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 13751
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 732
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3Brush 40906: WARNING, microbrush
+...4...5...6...7...8...9...100...1...2...3Brush 40906: WARNING, microbrush
+...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (452121 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1689 texinfos to 956
+Reduced 91 texdatas to 80 (2760 bytes to 2238)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1470 portalclusters
+4452 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4..
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 762
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/hr_massive/wood_siding_1_yellow_blend_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3Brush 40906: WARNING, microbrush
+...4...5...6...7...8...9...100...1...2...3Brush 40906: WARNING, microbrush
+...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (510321 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2024 texinfos to 1146
+Reduced 99 texdatas to 87 (3049 bytes to 2489)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1665 portalclusters
+5041 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6804 visible clusters (0.00%)
+Total clusters visible: 617711
+Average clusters visible: 370
+Building PAS...
+Average clusters audible: 1392
+visdatasize:540927  compressed from 719280
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+36 minutes, 24 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+5494 faces
+293775 square feet [42303672.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+5494 patches before subdivision
+32692 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3749896, max 1055
+transfer lists:  28.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(115340, 106108, 86549)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(33891, 29073, 20773)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(11965, 9838, 6520)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4163, 3295, 2027)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1520, 1160, 669)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(556, 410, 222)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(207, 147, 75)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(78, 53, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(29, 19, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(11, 7, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0058 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1482/8192        17784/98304    (18.1%) 
+brushsides            9539/81920       76312/655360   (11.6%) 
+planes                3570/65536       71400/1310720  ( 5.4%) 
+vertexes              9270/65536      111240/786432   (14.1%) 
+nodes                 3268/65536      104576/2097152  ( 5.0%) 
+texinfos              1146/12288       82512/884736   ( 9.3%) 
+texdata                 87/4096         2784/131072   ( 2.1%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 5494/65536      307664/3670016  ( 8.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3189/65536      178584/3670016  ( 4.9%) 
+facebrushes           2177/0            4354/0        ( 0.0%) 
+facebrushlists        5494/0           21976/0        ( 0.0%) 
+leaves                3280/65536      104960/2097152  ( 5.0%) 
+leaffaces             6603/65536       13206/131072   (10.1%) 
+leafbrushes           3002/65536        6004/131072   ( 4.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            39266/512000     157064/2048000  ( 7.7%) 
+edges                22906/256000      91624/1024000  ( 8.9%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            529/32768        5290/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8301/65536       16602/131072   (12.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2672636/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      540927/16777216 ( 3.2%) 
+entdata               [variable]       94910/393216   (24.1%) 
+LDR ambient table     3280/65536       13120/262144   ( 5.0%) 
+HDR ambient table     3280/65536       13120/262144   ( 5.0%) 
+LDR leaf ambient     10294/65536      288232/1835008  (15.7%) 
+HDR leaf ambient      3280/65536       91840/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/22182    ( 0.0%) 
+pakfile               [variable]      153946/0        ( 0.0%) 
+physics               [variable]      510321/4194304  (12.2%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 15544
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+8 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 796
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/hr_massive/wood_siding_1_yellow_blend_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3Brush 40906: WARNING, microbrush
+...4...5...6...7...8...9...100...1...2...3Brush 40906: WARNING, microbrush
+...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (510651 bytes)
+Error! prop_static using model "models/props_street/garbage_can.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_street/garbage_can.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2063 texinfos to 1119
+Reduced 99 texdatas to 87 (3049 bytes to 2489)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1652 portalclusters
+5028 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9..
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\maps\wip\46hawthorne.vmf
+Map revision 806
+Patching WVT material: maps/46hawthorne/nature/blend_grass_grass_02_wvt_patch
+Patching WVT material: maps/46hawthorne/hr_massive/wood_siding_1_yellow_blend_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_milwall002_concretefloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/de_nuke/nukblenddirtgrassb_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_blue_wvt_patch
+Patching WVT material: maps/46hawthorne/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_concrete02_concfloor012a_wvt_patch
+Patching WVT material: maps/46hawthorne/concrete/blend_blacktop_grass_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3Brush 40906: WARNING, microbrush
+...4...5...6...7...8...9...100...1...2...3Brush 40906: WARNING, microbrush
+...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 212 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\maps\wip\46hawthorne.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (513091 bytes)
+Error! prop_static using model "models/props_street/garbage_can.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_street/garbage_can.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2063 texinfos to 1207
+Reduced 99 texdatas to 87 (3049 bytes to 2489)
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\maps\wip\46hawthorne.bsp
+reading d:\maps\wip\46hawthorne.prt
+1373 portalclusters
+4356 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 5454 visible clusters (0.00%)
+Total clusters visible: 452993
+Average clusters visible: 329
+Building PAS...
+Average clusters audible: 1187
+visdatasize:382023  compressed from 483296
+writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+5 minutes, 45 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading d:\maps\wip\46hawthorne.bsp
+5095 faces
+293260 square feet [42229440.00 square inches]
+48 Displacements
+2389 Square Feet [344137.22 Square Inches]
+5095 patches before subdivision
+33273 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3146013, max 890
+transfer lists:  24.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(109778, 101820, 83857)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(32688, 28395, 20510)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(11730, 9760, 6529)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4130, 3301, 2047)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1521, 1170, 680)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(560, 415, 227)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(210, 150, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(79, 54, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(30, 20, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(11, 7, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0061 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1491/8192        17892/98304    (18.2%) 
+brushsides            9593/81920       76744/655360   (11.7%) 
+planes                3582/65536       71640/1310720  ( 5.5%) 
+vertexes              8804/65536      105648/786432   (13.4%) 
+nodes                 2693/65536       86176/2097152  ( 4.1%) 
+texinfos              1207/12288       86904/884736   ( 9.8%) 
+texdata                 87/4096         2784/131072   ( 2.1%) 
+dispinfos               48/0            8448/0        ( 0.0%) 
+disp_verts            3888/0           77760/0        ( 0.0%) 
+disp_tris             6144/0           12288/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        9088/0            9088/0        ( 0.0%) 
+faces                 5095/65536      285320/3670016  ( 7.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3321/65536      185976/3670016  ( 5.1%) 
+facebrushes           2114/0            4228/0        ( 0.0%) 
+facebrushlists        5095/0           20380/0        ( 0.0%) 
+leaves                2705/65536       86560/2097152  ( 4.1%) 
+leaffaces             6721/65536       13442/131072   (10.3%) 
+leafbrushes           3043/65536        6086/131072   ( 4.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            38467/512000     153868/2048000  ( 7.5%) 
+edges                23011/256000      92044/1024000  ( 9.0%) 
+LDR worldlights         22/8192         2200/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            558/32768        5580/327680   ( 1.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9894/65536       19788/131072   (15.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2761348/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      382023/16777216 ( 2.3%) 
+entdata               [variable]       99499/393216   (25.3%) 
+LDR ambient table     2705/65536       10820/262144   ( 4.1%) 
+HDR ambient table     2705/65536       10820/262144   ( 4.1%) 
+LDR leaf ambient      9205/65536      257740/1835008  (14.0%) 
+HDR leaf ambient      2705/65536       75740/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/23432    ( 0.0%) 
+pakfile               [variable]      153946/0        ( 0.0%) 
+physics               [variable]      513091/4194304  (12.2%) 
+physics terrain       [variable]        5276/1048576  ( 0.5%) 
+
+Level flags = 7c
+
+Total triangle count: 15014
+Writing d:\maps\wip\46hawthorne.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\maps\wip\46hawthorne.bsp', but we don't own that location. Allowing...
+8 seconds elapsed
